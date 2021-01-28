@@ -134,3 +134,140 @@ padding-right: 80px;
     font-size: 16px;
     text-decoration: none;
 }
+
+@media only screen and (max-width: 480px) {
+    
+    .navigation {
+        vertical-align: top;
+        text-align: center;
+        width: 100%;
+        padding: 10px;
+        list-style-type: none;
+        display: inline;
+    }
+    
+    li {
+    display: inline-block;
+    padding-right: 20px;
+    }
+    
+    .header{ 
+        padding: 10px;
+        text-align: center;
+        background: white;
+        color: black;
+        font-size: 15px;
+        font-family: Ropa Sans, Roboto;
+        padding-top: 0%;
+    }
+    
+    .a {
+        display: none;
+        padding: 2px;
+        text-align: center;
+    
+    }
+    .logo {
+        width: auto;
+        padding: 0%;
+        text-align: center;
+    }
+    
+    .row {
+        display: row;
+        flex-wrap: wrap;
+        padding: 0;
+        text-align: center;
+        padding-bottom: 3%;
+    }
+    
+    .content {
+        width: 381px;
+        margin: 0 auto;
+    }
+    
+    .footer {
+        background-color: white;
+        text-align: left;
+        word-spacing: normal;
+        line-height: 10px;
+        padding-left: 22%;
+        margin: auto;
+    }
+    
+    .footerBox {
+        padding-top: 100px;
+    }
+    
+    .aboutMe {
+        width: 381px;
+        text-align: left;
+        padding: 0%;
+        font-family: roboto;
+        margin: auto;
+        padding-bottom: 50px;
+    }
+    
+    .footer3 {
+        text-align: center;
+        padding-bottom: 30px;
+        padding-top: 50px;
+    }
+    
+    .h2 {
+        margin: auto;
+        text-align: left;
+    }
+    
+    .works {
+        text-align: left;
+        margin: auto;
+        padding: 0%;
+        font-family: roboto;
+        width: 262px;
+    }
+    
+    .imageClass {
+        text-align: left;
+        width: 381px;
+        float: left;
+        text-align: left;
+    }
+    
+    .textClass {
+        text-align: left;
+        width: 90%;
+    }
+    
+    .imageClass2 {
+        text-align: left;
+        width: 381px;
+        text-align: center;
+    }
+    
+    .textClass2 {
+        text-align: left;
+        width: 70%;
+    }
+    
+    .botani {
+        text-align: left;
+        padding-bottom: 50px;
+    }
+    
+    .cbr {
+        text-align: left;
+        padding-top: 100px;
+    }
+    
+    .button {
+        background-color: black;
+        border: none;
+        color: white;
+        padding: 5px 13px;
+        text-align: center;
+        display: inline-block;
+        font-size: 12px;
+        text-decoration: none;
+    }
+}
