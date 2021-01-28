@@ -40,6 +40,7 @@ padding-right: 80px;
     padding: 0;
     text-align: center;
     padding-bottom: 3%;
+    width: 100%;
 }
 
 .content {
@@ -73,6 +74,8 @@ padding-right: 80px;
     text-align: center;
     padding-bottom: 30px;
     padding-top: 100px;
+    width: 25%;
+    margin: auto;
 }
 
 .h2 {
@@ -135,20 +138,26 @@ padding-right: 80px;
     text-decoration: none;
 }
 
+.image1 {
+    width: 28%;
+}
+
 @media only screen and (max-width: 480px) {
     
     .navigation {
         vertical-align: top;
-        text-align: center;
+        text-align: left;
         width: 100%;
-        padding: 8px;
+        padding: 10%;
         list-style-type: none;
         display: inline;
     }
     
     li {
     display: inline-block;
-    padding-right: 10px;
+    padding-right: 1%;
+    text-align: center;
+    font-size: 12px;
     }
     
     .header{ 
@@ -182,36 +191,41 @@ padding-right: 80px;
     }
     
     .content {
-        width: 381px;
+        width: 90%;
         margin: 0 auto;
     }
     
     .footer {
         background-color: white;
         text-align: left;
-        word-spacing: normal;
-        line-height: 10px;
-        padding-left: 22%;
+        line-height: 200%;
+        padding-left: 5%;
         margin: auto;
     }
     
     .footerBox {
         padding-top: 100px;
+        text-align: left;
+        margin: auto;
+        font-size: 12px;
     }
     
     .aboutMe {
-        width: 381px;
+        width: 90%;
         text-align: left;
         padding: 0%;
         font-family: roboto;
         margin: auto;
         padding-bottom: 50px;
+        font-size: 12px;
     }
     
     .footer3 {
         text-align: center;
         padding-bottom: 30px;
-        padding-top: 50px;
+        padding-top: 10%;
+        width: 30%;
+        margin: auto;
     }
     
     .h2 {
@@ -224,40 +238,49 @@ padding-right: 80px;
         margin: auto;
         padding: 0%;
         font-family: roboto;
-        width: 300px;
+        width: 90%;
     }
     
     .imageClass {
-        text-align: left;
-        width: 381px;
-        float: left;
-        text-align: left;
+        text-align: center;
+        width: 100%;
+        margin: auto;
+        padding-bottom: 10%;
     }
     
     .textClass {
         text-align: left;
-        width: 90%;
+        width: 100%;
+        margin: auto;
+        padding-left: 0%;
+        padding-top: 10%;
     }
     
     .imageClass2 {
-        text-align: left;
-        width: 381px;
+        width: 100%;
         text-align: center;
+        margin: auto;
+        padding-bottom: 10%;
     }
     
     .textClass2 {
         text-align: left;
-        width: 70%;
+        width: 100%;
+        margin: auto;
+        padding-left: 0%;
+        padding-top: 10%;
     }
     
     .botani {
         text-align: left;
-        padding-bottom: 50px;
+        padding-bottom: 12%;
+        font-size: 12px;
     }
     
     .cbr {
         text-align: left;
-        padding-top: 100px;
+        padding-top: 12%;
+        font-size: 12px;
     }
     
     .button {
@@ -270,4 +293,11 @@ padding-right: 80px;
         font-size: 12px;
         text-decoration: none;
     }
+
+    .image1 {
+        width: 40%;
+    }
+
+
+    
 }
